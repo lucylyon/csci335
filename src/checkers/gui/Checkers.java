@@ -120,7 +120,7 @@ public class Checkers extends JFrame {
             changeTurn();
         }
     }
-    
+
     private void loadAlgorithms() {
         searchAlg = CheckersSearcher.makeSearcher((String)searchers.getSelectedItem(), (String)evalFuncs.getSelectedItem(), evalFuncClasses, searcherClasses);
         if (searchAlg == null) {
@@ -254,4 +254,6 @@ public class Checkers extends JFrame {
         Checkers c = new Checkers();
         c.setVisible(true);
     }
+
+
 }

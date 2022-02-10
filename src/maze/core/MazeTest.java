@@ -1,6 +1,7 @@
 package maze.core;
 
 import static org.junit.Assert.*;
+import static org.testng.AssertJUnit.assertTrue;
 
 import core.Pos;
 import org.junit.Test;
